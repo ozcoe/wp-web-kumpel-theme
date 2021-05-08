@@ -1,0 +1,69 @@
+/*   
+Theme Name: Web-kumpel.de Bootstrap Theme
+Theme URI: https://www.web-kumpel.de
+Text Domain: wpbootstrap
+Description: A wordpress bootstrap theme for beginners and experts.
+Author: Ozan Cörüt
+Author URI: <AUTHOR_URI>
+Version: 1.0
+*/
+html {
+    min-height:100%;
+    width:100%;
+}
+
+body {
+    min-height:100%;
+    width:100%;
+}
+
+#sidebar-left {
+    position:fixed;
+    top:0px;
+    width:50px;
+    height:100%;
+    z-index: 9000;
+}
+
+#side-title {
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    top: 50vh;
+    left:20px;
+    text-align: center;
+    vertical-align: middle;
+    width:200px;
+    z-index: 9000;
+}
+
+#side-scroll-top {
+    top: 90vh;
+    width:30px;
+    z-index: 9000;
+}
+
+.toggle-button {    
+    top: 20px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: rgba(255,85,112,1);
+    display: block;
+    width: 100%;
+    height: 2px;
+    border: 0;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    padding:1px;
+}
+
+.bar + .bar {
+    margin-top: 4px;
+}
+
+.middle {
+    top: 11px;
+}
