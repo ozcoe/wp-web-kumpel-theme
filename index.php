@@ -134,7 +134,7 @@ switch ($footer_logo_position) {
     </header>
 
     <div id=cover-image" class="w-100 p-0 m-0">
-        <img src="<?php echo $featured_img_url ?>" style="height:100vh;width:100vw;object-fit: cover" />
+        <img src="<?php echo $featured_img_url ?>" style="width:100%;object-fit: cover" />
     </div>
 
     <div id="title" class="w-100 p-0 m-0 position-absolute text-center" style="top:45vh;">
